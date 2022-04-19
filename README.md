@@ -91,6 +91,8 @@ Zauważ, że funkcja ta przyjmuje dwa parametry: pierwszy to element, na którym
 
 > Zapoznaj się dokładnie ze strukturą plików HTML i CSS oraz opisem działań w pliku `./assets/js/script.js` – wszystko to pomoże Ci w zrealizowaniu projektu.
 
+> *Dlaczego w tym projekcie stosujemy Custom Events?* – często otrzymuję takie pytanie, dlatego tutaj na nie odpowiem: przede wszystkim po to, by oswoić się ze sposobem ich działania. Projekt oczywiście mógłby opierać się na zdarzeniach dostępnych w JavaScripcie i działałby tak samo, lecz tutaj kod tworzył inny programista, który miał własny zamysł. Możliwe, że przygotował grunt pod dalszy rozwój projektu. Custom Events zwiększają bowiem elastyczność rozwiązania: umożliwiają [przekazywanie dodatkowych danych](http://kursjs.pl/kurs/events/events-tematy-dodatkowe#customevent) (dzięki właściwości `.details`) oraz [komunikację między elementami](http://kursjs.pl/kurs/events/events-tematy-dodatkowe#po-co) (dzięki propagacji).
+
 &nbsp;
 
 ## Zadania dodatkowe
