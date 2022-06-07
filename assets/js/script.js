@@ -28,9 +28,6 @@ const startSlider = function () {
 const stopSlider = function () {
 	clearInterval(startInterval);
 	startInterval = null;
-	if (startInterval !== null) {
-		startInterval = null;
-	}
 };
 
 const runJSSlider = function () {
@@ -142,9 +139,7 @@ const onImageClick = function (event, sliderRootElement, imagesSelector) {
 	sliderImg.setAttribute('src', currSrc);
 	getGropuName(event, imagesSelector);
 	createThumbs(selectedImg, currImg, currSrc);
-	setTimeout(function () {
-		startSlider();
-	}, 2000);
+	startSlider();
 };
 
 const changeImg = function (newEl, startImg, currImg) {
